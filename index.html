@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Site</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="weatherIcon.png">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="weather-box-wrap">
+    <div class="input">
+      <input type="text" placeholder="Enter the city" id="city">
+      <input type="submit" value="Submit" id="submit">
+    </div>
+    <a class="link" style="display: block;" href="https://weather.com/">
+        <div class="weather-box">
+            <ul class="first">
+                <p>City Name:</p>
+                <p>Current Condition:</p>
+                <p>Current Temp:</p>
+                <p>Today's High:</p>
+                <p>Today's Low:</p>
+            </ul>
+            <ul class="second">
+                <p id='name'>Wakanda</p>
+                <p id='description'>Sunny</p>
+                <p id='temp'>25°C</p>
+                <p id='high'>30°C</p>
+                <p id='low'>20°C</p>
+            </ul>
+        </div>
+    </a>
+</div>
+</body>
+</html>
